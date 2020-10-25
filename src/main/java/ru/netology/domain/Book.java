@@ -23,6 +23,8 @@ public class Book extends Product {
     }
 
 
+
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -44,5 +46,12 @@ public class Book extends Product {
         return Objects.hash(super.hashCode(), author);
 
 
+    }
+
+    public boolean matches(String search) {
+        if (super.matches(search)) {
+            return true;
+        }
+        return this.getAuthor().equalsIgnoreCase(search);
     }
 }
