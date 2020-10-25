@@ -15,6 +15,14 @@ public class Smartphone extends Product {
     this.producer = producer;
   }
 
+  public String getProducer() {
+    return producer;
+  }
+
+  public void setProducer(String producer) {
+    this.producer = producer;
+  }
+
   @Override
   public boolean equals(Object o) {
     if (this == o) return true;
