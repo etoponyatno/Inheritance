@@ -13,10 +13,6 @@ public class ProductManager {
         repository.save(item);
     }
 
-    public void getAll(){
-        repository.findAll();
-    }
-
     public Product[] searchBy(String text) {
         Product[] result = new Product[0];
         for (Product product : repository.findAll()) {

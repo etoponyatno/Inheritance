@@ -18,11 +18,11 @@ class BookTest {
     }
   }
 
-  @Test
-  public void shouldNotCastToDifferentClass() {
-    Product product = new Book();
-    Smartphone shirt = (Smartphone) product;
-  }
+//  @Test
+//  public void shouldNotCastToDifferentClass() {
+//    Product product = new Book();
+//    Smartphone book = (Smartphone) product;
+//  }
 
   @Test
   public void shouldUseOverridedMethod() {
