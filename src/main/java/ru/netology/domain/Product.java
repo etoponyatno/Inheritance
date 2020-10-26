@@ -41,7 +41,7 @@ public class Product {
   }
 
   public boolean matches(String search) {
-    return this.getName().equalsIgnoreCase(search);
+   return name.equalsIgnoreCase(search);
   }
 
   @Override

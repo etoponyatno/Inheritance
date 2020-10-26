@@ -48,10 +48,8 @@ public class Book extends Product {
 
     }
 
+    @Override
     public boolean matches(String search) {
-        if (super.matches(search)) {
-            return true;
-        }
-        return this.getAuthor().equalsIgnoreCase(search);
+        return super.matches(search) || search.equals(this.author);
     }
 }
