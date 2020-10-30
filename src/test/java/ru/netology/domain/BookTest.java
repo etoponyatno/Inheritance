@@ -13,35 +13,4 @@ class BookTest {
     String text = "name1";
     assertTrue(book1.matches(text));
   }
-
-
-
-//  @Test
-//  public void shouldHaveAllFieldsAndMethodFromSuperClass() {
-//    Book book = new Book();
-//    book.
-//  }
-
-
-//  @Test
-//  public void shouldCastFromBaseClass() {
-//    Product product = new Book();
-//    if (product instanceof Book) {
-//      Book book = (Book) product;
-////      book.
-//    }
-//  }
-
-//  @Test
-//  public void shouldNotCastToDifferentClass() {
-//    Product product = new Book();
-//    Smartphone book = (Smartphone) product;
-//  }
-
-//  @Test
-//  public void shouldUseOverridedMethod() {
-//    Product product = new Book();
-//    // Вопрос к аудитории: чей метод вызовется?
-//    product.toString();
-//  }
 }
